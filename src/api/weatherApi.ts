@@ -1,4 +1,4 @@
-const BASE_URL:string = 'http://api.weatherapi.com/v1'
+const BASE_URL:string = 'https://api.weatherapi.com/v1'
 const API_KEY:string = import.meta.env.VITE_WEATHER_API_KEY
 
 export async function fetchWeatherNow(Lat:number, Lan:number) {
